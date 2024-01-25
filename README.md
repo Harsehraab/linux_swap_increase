@@ -1,5 +1,6 @@
 # linux_swap_increase
 Guide to increase swap memory 
+sudo swapoff -a 
 
 sudo fallocate -l 1G /swapfile
 
